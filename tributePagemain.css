@@ -119,38 +119,30 @@
   }
   .video1 {
     grid-area: video1;
- 
-    
   }
 
   .video2 {
     grid-area: video2;
- 
-  
   }
   .video3 {
     grid-area: video3;
-   
- 
   }
   .video4 {
     grid-area: video4;
-   
-   
   }
   .video5 {
     grid-area: video5;
-   
-  
   }
   .video6 {
     grid-area: video6;
-    
- 
   }
   h2 {
     text-align: center;
   }
+  .center {
+    text-align: center;
+  }
+
   .button {
     background: rgb(211,211,211);
     color: blue;
@@ -159,12 +151,11 @@
     border-radius: 10px; 
     text-decoration: none;
     cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   #footer {
       grid-area: footer;
       text-align: center;
+      align-self: end;
   } 
